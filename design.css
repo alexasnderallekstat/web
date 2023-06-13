@@ -9,7 +9,12 @@ body {
 	font-size: 1.5vw;
 }
 header { background-color: rgb(255, 191, 191); }
-article { background-color: rgb(191, 255, 191); flex-grow: 1; display: flex; }
+article { background-color: rgb(191, 255, 191);
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center; }
 footer { background-color: rgb(191, 191, 255); }
 ul {
 	display: flex;
@@ -18,9 +23,9 @@ ul {
 	list-style-type: none;
 }
 canvas {
-	flex-grow: 1;
 	background-image: url(transparencia.png);
 	background-size: calc(100% / 32);
 	image-rendering: pixelated;
 	border: 1px solid black;
+	aspect-ratio: 16 / 9;
 }
