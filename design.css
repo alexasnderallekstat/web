@@ -9,7 +9,7 @@ body {
 	font-size: 1.5vw;
 }
 header { background-color: rgb(255, 191, 191); }
-article { background-color: rgb(191, 255, 191); flex-grow: 1; }
+article { background-color: rgb(191, 255, 191); flex-grow: 1; display: flex; }
 footer { background-color: rgb(191, 191, 255); }
 ul {
 	display: flex;
@@ -18,8 +18,9 @@ ul {
 	list-style-type: none;
 }
 canvas {
-    background-image: url(transparencia.png);
-    background-size: calc(100% / 32);
-    image-rendering: pixelated;
-    border: 1px solid black;
+	flex-grow: 1;
+	background-image: url(transparencia.png);
+	background-size: calc(100% / 32);
+	image-rendering: pixelated;
+	border: 1px solid black;
 }
