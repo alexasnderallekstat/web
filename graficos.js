@@ -1,4 +1,4 @@
-import matematica from 'matematicas.js';
+import matematica from '/matematicas.js';
 const canvas = document.getElementsByTagName('canvas')[0];
 const c = canvas.getContext('2d');
 function canvas_calibrar_tamanho(resolucao=100) {
