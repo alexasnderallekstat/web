@@ -1,4 +1,4 @@
-const canvas = document.getElementsByTagName('canvas');
+const canvas = document.getElementsByTagName('canvas')[0];
 const c = canvas.getContext('2d');
 canvas.style.backgroundColor = 'red';
 function canvas_calibrar_tamanho() {
