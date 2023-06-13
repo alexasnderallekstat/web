@@ -34,3 +34,6 @@ class Nave {
 		c.lineTo(dx, dy);
 	}
 }
+
+const player = new Nave();
+player.draw(c);
