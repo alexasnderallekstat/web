@@ -10,6 +10,7 @@ const tracker = {
 		    s = flo(flo(t %60)),
 		    m = flo(flo(t %(60 **2)) /60),
 		    h = flo(flo(t %(60 **3)) /(60 **2)),
-		    decorridos = `${h > 0 ? fil(h) +':' : ''}${h > 0 || m > 0 ? fil(m) +':' : ''}${h > 0 || m > 0 ? fil(s) : fil(s) +'s'} decorridos.`;
+		    d = `${h > 0 ? fil(h) +':' : ''}${h > 0 || m > 0 ? fil(m) +':' : ''}${h > 0 || m > 0 ? fil(s) : fil(s) +'s'} decorridos.`;
+		return d;
 	}
 }
