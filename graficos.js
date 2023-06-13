@@ -32,7 +32,7 @@ class Nave {
 const matematica = {
 	tan(x) { return Math.tan(x) },
 	atan(x) { return Math.atan(x) },
-	pi: return Math.PI,
+	pi: Math.PI,
 	arredondar(x) { return 0 +fix(x +atan(tan(-x *pi -pi /(2 **50))) /pi) },
 	chao(x) { return 0 +fix(x +atan(tan(-x *pi +pi /2 -pi /(2 **50))) /pi -0.5) },
 	teto(x) { return 0 +fix(x +atan(tan(-x *pi +pi /2 +pi /(2 **50))) /pi +0.5) },
