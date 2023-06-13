@@ -31,7 +31,7 @@ class Nave {
 
 const matematica = {
 	seno(x) { return matematica.fix(Math.sin(x)) },
-	coseno(x) { return Math.cos(x) },
+	coseno(x) { return matematica.fix(Math.cos(x)) },
 	tan(x) { return Math.tan(x) },
 	atan(x) { return Math.atan(x) },
 	pi: Math.PI,
