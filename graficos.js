@@ -30,13 +30,14 @@ class Nave {
 }
 
 const matematica = {
-	seno(x) { return Math.sin(x) },
+	seno(x) { return matematica.fix(Math.sin(x)) },
 	coseno(x) { return Math.cos(x) },
 	tan(x) { return Math.tan(x) },
 	atan(x) { return Math.atan(x) },
 	pi: Math.PI,
 	grau_radiano(g) { return g *matematica.pi /180 },
 	radiano_grau(r) { return r *180 /matematica.pi },
+	direcao(angulo) { return {x: coseno(matematica.grau_radiano(angulo)), y: seno(matematica.grau_radiano(angulo)) },
 	arredondar(x) { return 0 +matematica.fix(x +matematica.atan(matematica.tan(-x *matematica.pi -matematica.pi /(2 **50))) /matematica.pi) },
 	chao(x) { return 0 +matematica.fix(x +matematica.atan(matematica.tan(-x *matematica.pi +matematica.pi /2 -matematica.pi /(2 **50))) /matematica.pi -0.5) },
 	teto(x) { return 0 +matematica.fix(x +matematica.atan(matematica.tan(-x *matematica.pi +matematica.pi /2 +matematica.pi /(2 **50))) /matematica.pi +0.5) },
