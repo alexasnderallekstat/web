@@ -29,7 +29,7 @@ class Nave {
 	}
 }
 
-{/*const matematica = {
+()=>{/*const matematica = {
 	tan(x) { return Math.tan(x) },
 	atan(x) { return Math.atan(x) },
 	pi: Math.PI,
