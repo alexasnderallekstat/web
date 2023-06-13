@@ -17,3 +17,8 @@ ul {
 	
 	list-style-type: none;
 }
+canvas {
+    background-image: url('transparencia.png');
+    image-rendering: pixelated;
+    background-size: calc(100% / 32);
+}
